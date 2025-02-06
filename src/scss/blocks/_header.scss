@@ -1,0 +1,80 @@
+header {
+  font-family: "Roboto", sans-serif;
+
+  padding: 69px 162px;
+
+  li {
+    margin-right: 40px;
+    color: $dark-blue-clr;
+
+    a {
+      font-weight: 700;
+      font-size: 20px;
+      color: #333; 
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    a::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -5px;
+      width: 0;
+      height: 4px;
+      background-color: $dark-blue-clr;
+      transition: width 0.3s ease, left 0.3s ease;
+      opacity: 0.8;
+    }
+    
+    a:hover {
+      color: #003366;
+      transform: scale(1.1) translateY(-2px);
+    }
+    
+    a:hover::after {
+      width: 100%;
+      left: 0;
+    }
+  }
+
+  .search-block {
+    position: relative;
+    display: inline-block;
+    
+    input {
+      width: 300px;
+      height: 66px;
+      padding: 20px;
+      background-color: #FAFAFA;
+      border: none;
+      border-radius: 36px;
+    }
+
+    img {
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);  
+      pointer-events: none;
+    }
+  }
+
+  .contact-block {
+    button {
+      border: 1px solid #E0E0E0;
+      border-radius: 30px;
+      flex-direction: row-reverse;
+      color: $dark-blue-clr;
+      background-color: inherit;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    img {
+      margin-right: 10px;
+    }
+  }
+}
