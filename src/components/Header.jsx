@@ -8,7 +8,7 @@ export default function Header() {
     <header className="d-flex align-center justify-between ">
       <div>
         <a href="#">
-          <img src={Logo} alt="logo" />
+          <img src={Logo} width={244} height={74} alt="logo" />
         </a>
       </div>
       <nav>
@@ -29,12 +29,12 @@ export default function Header() {
       </nav>
       <div className="search-block ">
         <input type="text" placeholder="Поиск" />
-        <img src={Search} alt="Search" />
+        <img src={Search} width={56} height={56} alt="Search" />
       </div>
       <div className="contact-block ">
         <button className="d-flex align-center " onClick={() => console.log('На меня нажали')}>
           Контакты
-          <img className="mr-20" src={NavCircle} alt="" />
+          <img className="mr-20" src={NavCircle} alt="circle" width={56} height={56} />
         </button>
       </div>
     </header>

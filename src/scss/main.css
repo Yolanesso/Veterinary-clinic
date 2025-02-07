@@ -64,4 +64,61 @@ header .contact-block button {
 }
 header .contact-block img {
   margin-right: 10px;
+}
+
+.about-section {
+  background-image: url("/src/img/main-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+}
+.about-section .about-info {
+  padding: 250px 0 288px 260px;
+}
+.about-section .about-info h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 48px;
+  margin: 0;
+  font-weight: 500;
+  color: #7EB693;
+}
+.about-section .about-info h2 {
+  margin: 0;
+  font-family: "Roboto", serif;
+  max-width: 540px;
+  font-size: 70px;
+  font-weight: 800;
+  color: #274C5B;
+}
+.about-section .about-info button {
+  margin-top: 23px;
+  padding: 28px 39px;
+  border-radius: 16px;
+  border: none;
+  background-color: #EFD372;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #274C5B;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card-advertising {
+  padding: 0 260px;
+}
+.card-advertising .shtman-oil {
+  margin-right: 36px;
+  background-image: url("/src/img/shtman-oil-bg.jpg");
+  background-size: cover;
+  width: 682px;
+  height: 370px;
+}
+.card-advertising .discount-info {
+  background-image: url("/src/img/discount-bg.jpg");
+  background-size: cover;
+  width: 682px;
+  height: 370px;
 }/*# sourceMappingURL=main.css.map */

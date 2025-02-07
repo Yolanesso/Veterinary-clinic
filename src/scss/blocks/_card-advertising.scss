@@ -1,0 +1,20 @@
+.card-advertising {
+  padding: 0 260px;
+  .shtman-oil {
+    margin-right: 36px;
+    background-image: url('/src/img/shtman-oil-bg.jpg');
+    background-size: cover;
+    width: 682px;
+    height: 370px;
+
+    &-info {
+    }
+  }
+
+  .discount-info {
+    background-image: url('/src/img/discount-bg.jpg');
+    background-size: cover;
+    width: 682px;
+    height: 370px;
+  }
+}

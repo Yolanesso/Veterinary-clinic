@@ -1,0 +1,47 @@
+.about-section {
+  background-image: url('/src/img/main-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  width: 100%;
+  
+  .about-info {
+    padding: 250px 0 288px 260px;
+    
+
+    h1 {
+      font-family: $font-family-base;
+      font-style: italic;
+      text-align: justify;
+      font-size: 48px;
+      margin: 0;
+      font-weight: 500;
+      color: $green-clr;
+    }
+
+    h2 {
+      margin: 0;
+      font-family: 'Roboto', serif;
+      max-width: 540px;
+      font-size: 70px;
+      font-weight: 800;
+      color: $dark-blue-clr;
+
+    }
+
+    button {
+      margin-top: 23px;
+      padding: 28px 39px;
+      border-radius: 16px;
+      border: none;
+      background-color: $yellow-clr;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: $dark-blue-clr;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+  
+}
